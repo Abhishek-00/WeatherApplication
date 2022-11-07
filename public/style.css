@@ -262,14 +262,14 @@ button {
 
     .main-content .temp-form #cityName {
         width: 25rem;
-        margin-left: 1.6rem;
+        margin-left: 2.3rem;
 
     }
 
     .main-content .temp-form #submitBtn {
         width: 8rem;
         height: 3.4rem;
-        margin-right: 0.6rem;
+        margin-right: 1.2rem;
     }
 
     .tempInformation {
