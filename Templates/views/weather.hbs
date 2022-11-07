@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    {{>headerLinks}}
+</head>
+
+<body>
+
+    {{>navbar}}
+
+    <div class="container-fluid main-header">
+        <div class="row">
+            <div class="col-md-10 col-12 mx-auto container">
+
+                <div class="main-content">
+                    <form action="" class="temp-form">
+                        <input type="text" id="cityName" placeholder="Enter your city name" autocomplete="off">
+                        <input type="submit" value="search" id="submitBtn">
+                    </form>
+                </div>
+
+                <div class="tempInformation">
+
+                    <div class="top-layer" style="font-family: 'Poppins', sans-serif;">
+
+                        <p id="day">sunday</p>
+                        <p id="date">06 november 2022</p>
+
+                    </div>
+
+                    <div class="main-layer">
+
+                        <p id="city_name">Chandigarh, IN</p>
+
+                        <div class="middle_layer data_hide">
+                            <p id="temp"><span>30.1</span><sup>o</sup> C</p>
+                            <p id="temp_status"><i class="fa-solid fa-cloud"></i></p>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <!-- footer  -->
+    {{>footer}}
+
+    <script src="main.js"></script>
+</body>
+
+</html>
