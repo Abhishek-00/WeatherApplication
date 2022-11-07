@@ -5,9 +5,9 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    /* font-family: 'Poppins', sans-serif; */
+    font-family: 'Poppins', sans-serif;
 
-    font-family: 'Merriweather', serif;
+    /* font-family: 'Merriweather', serif; */
 }
 
 body {
@@ -273,14 +273,23 @@ button {
     }
 
     .tempInformation {
-        width: 34rem;
+        width: 35.5rem;
         height: 30rem;
 
     }
 
     .main-layer .middle_layer #temp {
-        font-size: 4.9rem;
+        font-size: 4.7rem;
     }
+
+    .img-fluid{
+        margin: 6rem 0 0 0;
+    }
+    
+    .my-port{
+        margin-bottom: 6rem;
+    }
+
 }
 
 
