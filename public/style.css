@@ -126,6 +126,7 @@ button {
     justify-content: center;
     flex-direction: column;
     align-items: flex-start;
+    overflow: hidden;
 }
 
 .main-header-right figure img {
