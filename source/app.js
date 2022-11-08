@@ -32,8 +32,8 @@ app.get("/weather", (req, res) => {
 })
 app.get("/portfolio",(req, res) => {
     res.render("404error", {
-        errornumber:"Ohh!!",
-        errorMsg: "Sorry, currently working on it😩"
+        errornumber:"Ohh!!😩",
+        errorMsg: "Sorry, currently working on it"
     })
 })
 app.get("/*", (req, res) => {

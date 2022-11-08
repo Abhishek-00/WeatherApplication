@@ -161,6 +161,7 @@ button {
     width: 45rem;
     height: 3rem;
     color: #fff;
+    margin-left: 12px;
     background: none;
     border: none;
     margin-top: 0.6rem;
@@ -282,11 +283,11 @@ button {
         font-size: 4.7rem;
     }
 
-    .img-fluid{
+    .img-fluid {
         margin: 6rem 0 0 0;
     }
-    
-    .my-port{
+
+    .my-port {
         margin-bottom: 6rem;
     }
 
@@ -308,6 +309,16 @@ footer p {
     line-height: 5rem;
 }
 
+/* error pag */
+.errornumber {
+    font-size: 150px;
+    margin-top: 10rem;
+}
+
+.errorMsg {
+    font-size: 2.4rem;
+    margin-bottom: 3rem;
+}
 
 /* responsive */
 @media(max-width:768px) {
@@ -319,5 +330,15 @@ footer p {
     .main-header-right {
         height: auto;
         margin: 0px 0 10rem 0;
+    }
+
+    .errornumber {
+        font-size: 7rem;
+        margin-top: 13rem;
+    }
+
+    .errorMsg {
+        font-size: 2rem;
+        margin-bottom: 3rem;
     }
 }
