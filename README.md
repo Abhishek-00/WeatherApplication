@@ -1,3 +1,3 @@
 # webproject-WeatherAapplication
 
-This application gives current weather details of any place you want
+WeatherApp gives you details about current weather of any place you want.
