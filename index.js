@@ -8,9 +8,9 @@ const port = process.env.PORT || 3000
 
 
 // public static path
-const staticPath = path.join(__dirname, "../public")
-const templatesPath = path.join(__dirname, "../Templates/views")
-const partialsPath = path.join(__dirname, "../Templates/partials")
+const staticPath = path.join(__dirname, "./public")
+const templatesPath = path.join(__dirname, "./Templates/views")
+const partialsPath = path.join(__dirname, "./Templates/partials")
 
 
 app.set("view engine", "hbs" )
