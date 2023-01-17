@@ -4,7 +4,7 @@
   "description": "Complete weather application",
   "main": "index.js", "type":"module",
   "scripts": {
-    "test": "mocha --recursive test",
+    "test": "echo \"Error: no test specified\" && exit 1",
     "bump-version": "npm version patch",
     "start": "node source/app.js"
   },
