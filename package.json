@@ -4,8 +4,9 @@
   "description": "Complete weather application",
   "main": "index.js", "type":"module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start" : "node source/app.js"
+    "test": "mocha --recursive test",
+    "bump-version": "npm version patch",
+    "start": "node source/app.js"
   },
   "author": "Abhishek kumar",
   "license": "ISC",
