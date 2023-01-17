@@ -2,11 +2,11 @@
   "name": "expressweb",
   "version": "1.0.0",
   "description": "Complete weather application",
-  "main": "index.js", "type":"module",
+  "main": "app.js", "type":"module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "bump-version": "npm version patch",
-    "start": "node source/app.js"
+    "start": "node src/app.js"
   },
   "author": "Abhishek kumar",
   "license": "ISC",
