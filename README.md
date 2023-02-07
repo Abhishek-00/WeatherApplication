@@ -1,4 +1,4 @@
-# webproject-WeatherAapplication
+# webproject-WeatherApplication
 
 Weather Application gives you current details about weather of any location you want.
 
